@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SFMkhW3kQD1bZuyUh9hkhvN9Gk56KW9eKiUK3rq0qX/DieRHZpTUgr110NncS/FNIRQfEUxkE6Awj36tWphHxQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Soren Patrick\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\taiterraria\\taiterraria.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Soren Patrick\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
