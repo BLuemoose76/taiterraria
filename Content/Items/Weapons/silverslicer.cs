@@ -23,7 +23,7 @@ namespace taiterraria.Content.Items.Weapons
             Item.useTime = 20;
             Item.useAnimation = 20;
             Item.autoReuse = true;
-            
+            item.value = Item.sellPrice(gold: 1);
             // Damage Values
             Item.DamageType = DamageClass.Melee;
             Item.damage = 20;
