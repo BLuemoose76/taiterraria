@@ -1,8 +1,16 @@
 using Terraria.ModLoader;
+using Taiterraria.Content.Tiles; // Import the namespace for your custom tile
 
-namespace taiterraria
+
+namespace Taiterraria
 {
-	public class taiterraria : Mod
-	{
-	}
+    public class Taiterraria : Mod
+    {
+        public Taiterraria()
+        {
+           // AddTile<Content.Tiles.SolOre>();
+			
+			
+        }
+    }
 }

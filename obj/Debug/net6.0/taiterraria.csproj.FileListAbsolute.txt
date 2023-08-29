@@ -1,0 +1,5 @@
+C:\Users\Soren Patrick\Documents\My Games\Terraria\tModLoader\ModSources\taiterraria\obj\Debug\net6.0\taiterraria.csproj.AssemblyReference.cache
+C:\Users\Soren Patrick\Documents\My Games\Terraria\tModLoader\ModSources\taiterraria\obj\Debug\net6.0\taiterraria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Soren Patrick\Documents\My Games\Terraria\tModLoader\ModSources\taiterraria\obj\Debug\net6.0\taiterraria.AssemblyInfoInputs.cache
+C:\Users\Soren Patrick\Documents\My Games\Terraria\tModLoader\ModSources\taiterraria\obj\Debug\net6.0\taiterraria.AssemblyInfo.cs
+C:\Users\Soren Patrick\Documents\My Games\Terraria\tModLoader\ModSources\taiterraria\obj\Debug\net6.0\taiterraria.csproj.CoreCompileInputs.cache

@@ -13,4 +13,22 @@ Items: {
 		DisplayName: Tutorial Sword
 		Tooltip: ""
 	}
+
+	SolBar: {
+		DisplayName: Sol Bar
+		Tooltip: ""
+	}
+
+	SolOre: {
+		DisplayName: Sol Ore
+		Tooltip: ""
+	}
+
+	testgun: {
+		DisplayName: testgun
+		Tooltip: ""
+	}
 }
+
+Tiles.SolOre.MapEntry: Sol Ore
+Projectiles.testammo.DisplayName: testammo

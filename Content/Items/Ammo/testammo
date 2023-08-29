@@ -1,0 +1,30 @@
+using Terraria;
+using Terraria.ModLoader;
+
+namespace Taiterraria.Content.Items.Ammo
+{
+    public class testammo : ModItem
+    {
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Test Ammo");
+        }
+
+        public override void SetDefaults()
+        {
+            item.damage = 20;
+            item.ranged = true;
+            item.width = 20;
+            item.height = 20; 
+            item.maxStack = 999; 
+            item.knockBack = 1.5f; 
+            item.value = Item.buyPrice(silver: 5); 
+            item.rare = ItemRarityID.Green; 
+            item.shoot = ModContent.ProjectileType<Projectiles.CustomAmmoProjectile>(); 
+            item.shootSpeed = 15f; 
+            item.ammo = AmmoID.Bullet; 
+        }
+
+       
+    }
+}
