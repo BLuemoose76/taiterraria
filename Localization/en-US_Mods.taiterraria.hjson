@@ -49,6 +49,11 @@ Items: {
 		DisplayName: Sol Pet Item
 		Tooltip: ""
 	}
+
+	BigStick: {
+		DisplayName: Big Stick
+		Tooltip: ""
+	}
 }
 
 Tiles.SolOre.MapEntry: Sol Ore
