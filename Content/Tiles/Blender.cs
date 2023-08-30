@@ -19,10 +19,8 @@ namespace Taiterraria.Content.Tiles
             TileID.Sets.DisableSmartCursor[Type] = true; 
             TileID.Sets.IgnoredByNpcStepUp[Type] = true; 
 
-             
-
-            TileObjectData.newTile.CopyFrom(TileObjectData.Style2x2); // Copying the existing style of 2x1
-            //TileObjectData.newTile.CoordinateHeights = new[] { 32 }; // Telling Terraria that each "cell" is 18 pixels
+            TileObjectData.newTile.CopyFrom(TileObjectData.Style1x1); // Use Style1x1 for single tiles
+            TileObjectData.newTile.CoordinateHeights = new[] { 16 }; // Set the height to 16 pixels
             TileObjectData.addTile(Type); // Adding the tile type to this style
 
             AddToArray(ref TileID.Sets.RoomNeeds.CountsAsTable);
@@ -44,4 +42,4 @@ namespace Taiterraria.Content.Tiles
             );
         }
     }
-}   
+}
