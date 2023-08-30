@@ -39,7 +39,23 @@ Items: {
 		DisplayName: Almond Milk
 		Tooltip: ""
 	}
+
+	ExamplePetItem: {
+		DisplayName: Example Pet Item
+		Tooltip: ""
+	}
 }
 
 Tiles.SolOre.MapEntry: Sol Ore
-Projectiles.testammo.DisplayName: testammo
+
+Projectiles: {
+	testammo.DisplayName: testammo
+	ExamplePetProjectile.DisplayName: Example Pet Projectile
+}
+
+Buffs: {
+	ExamplePetBuff: {
+		DisplayName: Example Pet Buff
+		Description: Mods.taiterraria.Buffs.ExamplePetBuff.Description
+	}
+}
