@@ -54,9 +54,17 @@ Items: {
 		DisplayName: Big Stick
 		Tooltip: ""
 	}
+
+	Blender: {
+		DisplayName: Blender
+		Tooltip: ""
+	}
 }
 
-Tiles.SolOre.MapEntry: Sol Ore
+Tiles: {
+	SolOre.MapEntry: Sol Ore
+	Blender.MapEntry: Blender
+}
 
 Projectiles: {
 	testammo.DisplayName: testammo
