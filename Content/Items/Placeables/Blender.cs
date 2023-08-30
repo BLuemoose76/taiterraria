@@ -30,5 +30,14 @@ namespace Taiterraria.Content.Items.Placeables
             Item.createTile = ModContent.TileType<Tiles.Blender>();
             Item.placeStyle = 0;
         }
+        public override void AddRecipes1()
+        {
+            Recipe recipe = CreateRecipe();
+			recipe.AddIngredient(170, 10);
+            recipe.AddIngredient(20, 5)
+			recipe.AddTile(TileID.Anvils);
+			recipe.Register();
+            
+        }
     }
 }

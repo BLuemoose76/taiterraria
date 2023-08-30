@@ -23,3 +23,7 @@
 ## Ores -
 ### Sol Ore
     -strange ore 
+    
+## Crafting stations-
+### Blender
+blender made from glass 10 and 5 copper bars
