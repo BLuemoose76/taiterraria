@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 
 namespace Taiterraria.Content.Pets.Solpet
 {
-	public class ExamplePetProjectile : ModProjectile
+	public class SolPetProjectile : ModProjectile
 	{
 		public override void SetStaticDefaults() {
 			Main.projFrames[Projectile.type] = 1;
@@ -29,7 +29,7 @@ namespace Taiterraria.Content.Pets.Solpet
 			Player player = Main.player[Projectile.owner];
 
 			// Keep the projectile from disappearing as long as the player isn't dead and has the pet buff.
-			if (!player.dead && player.HasBuff(ModContent.BuffType<ExamplePetBuff>())) {
+			if (!player.dead && player.HasBuff(ModContent.BuffType<SolPetBuff>())) {
 				Projectile.timeLeft = 2;
 			}
 		}

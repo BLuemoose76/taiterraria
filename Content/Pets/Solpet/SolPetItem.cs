@@ -7,18 +7,18 @@ using Terraria.ModLoader;
 
 namespace Taiterraria.Content.Pets.Solpet
 {
-	public class ExamplePetItem : ModItem
+	public class SolPetItem : ModItem
 	{
 		public override void SetStaticDefaults() {
-			// Names and descriptions of all ExamplePetX classes are defined using .hjson files in the Localization folder
+			
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 
 		public override void SetDefaults() {
 			Item.CloneDefaults(ItemID.Penguin); // Copy the Defaults of the Zephyr Fish Item.
 
-			Item.shoot = ModContent.ProjectileType<ExamplePetProjectile>(); // "Shoot" your pet projectile.
-			Item.buffType = ModContent.BuffType<ExamplePetBuff>(); // Apply buff upon usage of the Item.
+			Item.shoot = ModContent.ProjectileType<SolPetProjectile>(); // "Shoot" your pet projectile.
+			Item.buffType = ModContent.BuffType<SolPetBuff>(); // Apply buff upon usage of the Item.
 		}
 
 		public override void UseStyle(Player player, Rectangle heldItemFrame) {

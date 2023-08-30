@@ -44,6 +44,11 @@ Items: {
 		DisplayName: Example Pet Item
 		Tooltip: ""
 	}
+
+	SolPetItem: {
+		DisplayName: Sol Pet Item
+		Tooltip: ""
+	}
 }
 
 Tiles.SolOre.MapEntry: Sol Ore
@@ -51,11 +56,17 @@ Tiles.SolOre.MapEntry: Sol Ore
 Projectiles: {
 	testammo.DisplayName: testammo
 	ExamplePetProjectile.DisplayName: Example Pet Projectile
+	SolPetProjectile.DisplayName: Sol Pet Projectile
 }
 
 Buffs: {
 	ExamplePetBuff: {
 		DisplayName: Example Pet Buff
 		Description: Mods.taiterraria.Buffs.ExamplePetBuff.Description
+	}
+
+	SolPetBuff: {
+		DisplayName: Sol Pet Buff
+		Description: Mods.taiterraria.Buffs.SolPetBuff.Description
 	}
 }

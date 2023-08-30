@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 
 namespace Taiterraria.Content.Pets.Solpet
 {
-	public class ExamplePetBuff : ModBuff
+	public class SolPetBuff : ModBuff
 	{
 		public override void SetStaticDefaults() {
 			Main.buffNoTimeDisplay[Type] = true;
@@ -14,7 +14,7 @@ namespace Taiterraria.Content.Pets.Solpet
 		public override void Update(Player player, ref int buffIndex) { // This method gets called every frame your buff is active on your player.
 			player.buffTime[buffIndex] = 18000;
 
-			int projType = ModContent.ProjectileType<ExamplePetProjectile>();
+			int projType = ModContent.ProjectileType<SolPetProjectile>();
 
 			// If the player is local, and there hasn't been a pet projectile spawned yet - spawn it.
 			if (player.whoAmI == Main.myPlayer && player.ownedProjectileCounts[projType] <= 0) {
