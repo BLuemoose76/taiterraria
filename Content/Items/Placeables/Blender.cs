@@ -27,7 +27,7 @@ namespace Taiterraria.Content.Items.Placeables
             Item.maxStack = 999;
             Item.consumable = true;
 
-            Item.createTile = ModContent.TileType<Tiles.BLender>();
+            Item.createTile = ModContent.TileType<Tiles.Blender>();
             Item.placeStyle = 0;
         }
     }
