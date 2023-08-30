@@ -1,15 +1,15 @@
-## taiterraria
+# taiterraria
 ![Alt text](icon.png)
 
 
-## Stuff:
+# Stuff:
 
-# Weapons-
+## Weapons-
 
-# Consumables-
+## Consumables-
 
-# Bars -
+## Bars -
 Sol Bar
     = made from sol ore
-# Ores -
+## Ores -
 Sol Ore
