@@ -15,7 +15,7 @@ namespace Taiterraria.Content.Pets.Solpet
 		}
 
 		public override void SetDefaults() {
-			Item.CloneDefaults(ItemID.ZephyrFish); // Copy the Defaults of the Zephyr Fish Item.
+			Item.CloneDefaults(ItemID.Penguin); // Copy the Defaults of the Zephyr Fish Item.
 
 			Item.shoot = ModContent.ProjectileType<ExamplePetProjectile>(); // "Shoot" your pet projectile.
 			Item.buffType = ModContent.BuffType<ExamplePetBuff>(); // Apply buff upon usage of the Item.

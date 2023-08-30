@@ -7,14 +7,14 @@ namespace Taiterraria.Content.Pets.Solpet
 	public class ExamplePetProjectile : ModProjectile
 	{
 		public override void SetStaticDefaults() {
-			Main.projFrames[Projectile.type] = 4;
+			Main.projFrames[Projectile.type] = 1;
 			Main.projPet[Projectile.type] = true;
 		}
 
 		public override void SetDefaults() {
-			Projectile.CloneDefaults(ProjectileID.Penguin); // Copy the stats of the Zephyr Fish
+			Projectile.CloneDefaults(ProjectileID.Penguin); // Copy the stats of Z Penguin
 
-			AIType = ProjectileID.Penguin; // Copy the AI of the Zephyr Fish.
+			AIType = ProjectileID.Penguin; // Copy the AI of  Z Penguin
 		}
 
 		public override bool PreAI() {
