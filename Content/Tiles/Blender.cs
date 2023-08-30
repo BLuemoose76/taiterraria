@@ -22,7 +22,7 @@ namespace Taiterraria.Content.Tiles
              
 
             TileObjectData.newTile.CopyFrom(TileObjectData.Style2x2); // Copying the existing style of 2x1
-            TileObjectData.newTile.CoordinateHeights = new[] { 32 }; // Telling Terraria that each "cell" is 18 pixels
+            //TileObjectData.newTile.CoordinateHeights = new[] { 32 }; // Telling Terraria that each "cell" is 18 pixels
             TileObjectData.addTile(Type); // Adding the tile type to this style
 
             AddToArray(ref TileID.Sets.RoomNeeds.CountsAsTable);

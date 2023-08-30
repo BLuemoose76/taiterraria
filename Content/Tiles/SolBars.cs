@@ -21,6 +21,6 @@ namespace Taiterraria.Content.Tiles
             TileObjectData.newTile.LavaDeath = false;
             TileObjectData.addTile(Type);
 
-            AddMapEntry(new Color(209, 204, 19), Language.GetText("MapObject.MetalBar"));
+            AddMapEntry(new Color(209, 204, 19), Language.GetText("MapObject.FunnyGold"));
         }
     }}
