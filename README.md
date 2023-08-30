@@ -11,7 +11,7 @@ test gun
 -test range weapon made from 60 silver bars at anvil
 ## Consumables-
 Almond milk
--made from 10 acorns and water bottle made on workbench
+-made from 10 acorns and water bottle made on workbench /n
 life crystal milk
 -one almond milk and life crystal made on workbench
 
