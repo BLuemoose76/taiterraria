@@ -28,6 +28,17 @@ Items: {
 		DisplayName: testgun
 		Tooltip: ""
 	}
+
+	LifeCrystalMilk: {
+		RestoreLifeText: Mods.taiterraria.Items.LifeCrystalMilk.RestoreLifeText
+		DisplayName: Life Crystal Milk
+		Tooltip: ""
+	}
+
+	AlmondMilk: {
+		DisplayName: Almond Milk
+		Tooltip: ""
+	}
 }
 
 Tiles.SolOre.MapEntry: Sol Ore

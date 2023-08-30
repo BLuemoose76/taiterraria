@@ -36,7 +36,7 @@ namespace Taiterraria.Content.Items.Placeables
             Recipe recipe = CreateRecipe();
 			recipe.AddIngredient<Content.Items.Placeables.SolOre>(4);
     
-			recipe.AddTile(TileID.Anvils);
+			recipe.AddTile(18);
 			recipe.Register();
             
         }
